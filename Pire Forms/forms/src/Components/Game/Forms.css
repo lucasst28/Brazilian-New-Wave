@@ -1,0 +1,130 @@
+.form-container {
+    background-color: #ccff00; /* Cor de fundo amarelo neon */
+    padding: 50px; /* Aumentar o padding */
+    margin: 20px auto; /* Reduzir a margem */
+    border-radius: 0; /* Remover bordas arredondadas */
+    box-shadow: none; /* Remover sombra */
+    max-width: 100%; /* Remover limite de largura */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fonte não profissional */
+    color: #ff6600; /* Cor de texto laranja */
+}
+
+.name-section, .email-section, .marital-status-section, .pets-section, .zodiac-sign-section, .ancestry-section, .birthdate-section, .gender-section, .age-section {
+    margin-bottom: 40px; /* Aumentar o espaço entre seções */
+}
+
+.letter-selector, .age-selector {
+    display: block; /* Alterar para bloco */
+    margin-bottom: 30px; /* Aumentar a margem inferior */
+}
+
+.letter-box, .age-box {
+    border: 2px solid #ff00ff; /* Borda rosa brilhante */
+    padding: 20px; /* Aumentar o padding */
+    width: 100px; /* Aumentar a largura */
+    text-align: center;
+    background-color: #ffffe0; /* Cor de fundo amarelo claro */
+}
+
+.name-preview, .email-preview {
+    margin-top: 20px; /* Aumentar a margem superior */
+    font-size: 24px; /* Aumentar o tamanho da fonte */
+}
+
+input[type="email"], input[type="number"], input[type="date"], select, input[type="text"] {
+    width: 100%;
+    padding: 20px; /* Aumentar o padding */
+    margin-top: 10px; /* Aumentar a margem superior */
+    border: 2px solid #ff00ff; /* Borda rosa brilhante */
+    border-radius: 0; /* Remover bordas arredondadas */
+    background-color: #ffffe0; /* Cor de fundo amarelo claro */
+    font-size: 18px; /* Aumentar o tamanho da fonte */
+    color: #ff6600; /* Cor de texto laranja */
+}
+
+label .required {
+    color: red; /* Alterar a cor para vermelho */
+}
+
+.submit-btn {
+    font-size: 20px; /* Aumentar o tamanho da fonte */
+    padding: 15px 30px; /* Aumentar o padding */
+    width: 100%; /* Aumentar a largura */
+    margin-top: 20px; /* Aumentar a margem superior */
+    background-color: #ff0000; /* Cor de fundo vermelho */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #cc0000; /* Cor de fundo vermelho escuro ao passar o mouse */
+}
+
+.clear-btn, .clear-all-btn {
+    font-size: 20px; /* Aumentar o tamanho da fonte */
+    padding: 15px 30px; /* Aumentar o padding */
+    width: 100%; /* Aumentar a largura */
+    margin-top: 20px; /* Aumentar a margem superior */
+    background-color: #ff00ff; /* Cor de fundo rosa */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.clear-btn:hover, .clear-all-btn:hover {
+    background-color: #ff69b4; /* Cor de fundo rosa claro ao passar o mouse */
+}
+
+.confirm-btn {
+    font-size: 20px; /* Aumentar o tamanho da fonte */
+    padding: 15px 30px; /* Aumentar o padding */
+    width: 100%; /* Aumentar a largura */
+    margin-top: 20px; /* Aumentar a margem superior */
+    background-color: #ff00ff; /* Cor de fundo rosa */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.confirm-btn:hover {
+    background-color: #ff69b4; /* Cor de fundo rosa claro ao passar o mouse */
+}
+
+.turtle-img {
+    display: block;
+    margin: 40px auto; /* Aumentar a margem */
+    cursor: pointer;
+    max-width: 50%; /* Reduzir a largura máxima */
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Aumentar a opacidade do fundo */
+    padding-top: 100px; /* Aumentar o padding superior */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* Aumentar a margem */
+    padding: 40px; /* Aumentar o padding */
+    border: 2px solid #888; /* Aumentar a borda */
+    width: 90%; /* Aumentar a largura */
+    max-width: 700px; /* Aumentar a largura máxima */
+    border-radius: 0; /* Remover bordas arredondadas */
+}
+
+.close {
+    color: #ff0000; /* Alterar a cor para vermelho */
+    float: right;
+    font-size: 36px; /* Aumentar o tamanho da fonte */
+    font-weight: bold;
+    cursor: pointer;
+}
